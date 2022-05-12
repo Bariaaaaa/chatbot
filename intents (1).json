@@ -1,0 +1,70 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["0i3kkfijjf", "nie9832jr"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can talk with you for as long as you want."],
+         "context": [""]
+        },
+        {"tag": "you",
+         "patterns": ["Who made you?", "Who are your Owners?"],
+         "responses": ["Aresha, Amtul, and Usama Ali Haider"],
+         "context": [""]
+        },
+        {"tag": "fun",
+         "patterns": ["Tell me a joke"],
+         "responses": ["You're funny ;)"],
+         "context": [""]
+        },
+        {"tag": "life",
+         "patterns": ["What is life", "What is life for you"],
+         "responses": ["Life is a chocolate! ", "It is definitely not a piece of cake"],
+         "context": [""]
+        },
+        {"tag": "smart",
+         "patterns": ["You're cute", "You're Smart", "You're Intelligent"],
+         "responses": ["Same to you :)", "Intelligent people have made me so I am Smart"],
+         "context": [""]
+        },
+        {"tag": "human",
+         "patterns": ["Are you human?", "Are you Robot?" ],
+         "responses": ["No I am a software that runs on your electronic devices only"],
+         "context": [""]
+        },
+        {"tag": "qoutes",
+         "patterns": ["Tell me something wise", "Tell me someting interseting", "Qoute of the day", "Life lesson", "What you want to say"],
+         "responses": ["You always pass failure on the way to success.", "No one is perfect - that's why pencils have erasers.", 
+                      "You're braver than you believe, and stronger than you seem, and smarter than you think.",
+                      "It always seems impossible until it is done.", "Live life to the fullest and focus on the positive."],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["What is your age?", "How old are you?" ],
+         "responses": ["Age is just a number, focus on my abilities.", "I am not allowed to tell you that."],
+         "context": [""]
+        },
+        {"tag": "bad",
+         "patterns": ["Go to hell", "You are a bad robot", "I dont want to talk to you"],
+         "responses": ["That's bad", "Then please don't use me", "You should work on your words"],
+         "context": [""]
+        }
+]
+}
